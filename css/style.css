@@ -1,0 +1,56 @@
+@import "components/navbar.css";
+
+/* main */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 22px;
+  background-color: white;
+}
+
+/* headers */
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* links */
+a {
+  text-decoration: none;
+  opacity: 0.7;
+  font-weight: 700;
+}
+
+a:link {
+  color:black;
+  opacity: 0.7;
+}
+
+
+a:visited {
+  color: black;
+  opacity: 0.7;
+}
+
+a:hover {
+  color: black;
+  opacity: 1;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
