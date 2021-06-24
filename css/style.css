@@ -3,12 +3,14 @@
 /* main */
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   margin: 22px;
+  background-color: white;
 }
 
 /* headers */
 h1, h2 {
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* links */
