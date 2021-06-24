@@ -39,7 +39,7 @@ a:hover {
 /* about me section */
 
 .about-container {
-text-align: center;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
