@@ -1,6 +1,6 @@
 
 typedText = document.querySelector('#typed');
 var typed = new Typed(typedText, {
-  strings: ["First sentence.", "Second sentence."],
-  typeSpeed: 30
+  strings: ["Full-stack Developer", "Let's get in touch"],
+  typeSpeed: 40
 });

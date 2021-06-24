@@ -20,15 +20,6 @@
   margin: 5px 0;
 }
 
-.hamburger {
-  color: #333333;
-  background-color: transparent;
-  border: 0;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.5s ease-in;
-}
-
 @media (min-width: 760px) {
   #navbar-links {
     display: flex;
@@ -38,9 +29,5 @@
 
   #navbar-links a {
     margin: 0px 20px;
-  }
-
-  .hamburger {
-    display: none;
   }
 }
