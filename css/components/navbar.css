@@ -1,0 +1,46 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  flex-wrap: wrap;
+}
+
+#navbar-links {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+}
+
+#navbar-links.show {
+  display: flex;
+  padding: 20px 0;
+}
+
+.navbar-link {
+  margin: 5px 0;
+}
+
+.hamburger {
+  color: #333333;
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+@media (min-width: 760px) {
+  #navbar-links {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+
+  #navbar-links a {
+    margin: 0px 20px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
