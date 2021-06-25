@@ -1,4 +1,5 @@
 @import "components/navbar.css";
+@import "components/project_card.css";
 
 /* main */
 body {
@@ -67,4 +68,12 @@ a:hover {
 @keyframes bounce{
      from {transform: translateY(0);}
      to   {transform: translateY(-10px);}
+}
+
+/* porjects */
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem 1rem;
 }
