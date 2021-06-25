@@ -19,6 +19,10 @@ h1, h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
+#projects, #about, #contact {
+    padding-top: 30px;
+}
+
 header {
   height: calc(100vh - 74px);
 }
@@ -77,4 +81,9 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5em;
 }
