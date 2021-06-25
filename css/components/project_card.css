@@ -4,6 +4,7 @@
   transition: 0.5s;
   text-align: left;
 }
-.project-card video {
+
+.project-card img {
   width: 100%;
 }
