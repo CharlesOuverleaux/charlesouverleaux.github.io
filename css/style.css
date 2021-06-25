@@ -2,10 +2,11 @@
 @import "components/project_card.css";
 
 /* main */
-body {
+html, body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   background-color: white;
+  margin: 0px;
 }
 
 main {
@@ -19,7 +20,7 @@ h1, h2 {
 }
 
 header {
-  height: calc(100vh - 150px);
+  height: calc(100vh - 74px);
 }
 
 /* links */
@@ -47,12 +48,12 @@ a:hover {
 
 /* about me section */
 
-.about-container {
+.landing-container {
   height: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 /* arrow down effect */
@@ -72,7 +73,7 @@ a:hover {
 
 /* projects */
 
-.project-container {
+.project-card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem 1rem;
