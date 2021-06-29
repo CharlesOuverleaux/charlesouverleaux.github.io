@@ -79,8 +79,17 @@ a:hover {
 
 /* about me section */
 
+.about-description {
+  display: flex;
+}
+
+.about-description p {
+  align-self: flex-end;
+  padding-right: 22px;
+}
+
 .about-description img {
-  width: 240px;
+  width: 200px;
   border-radius: 50%;
 }
 
