@@ -59,6 +59,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 50px;
 }
 
 /* arrow down effect */
