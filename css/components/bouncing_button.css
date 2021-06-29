@@ -1,0 +1,10 @@
+/* arrow down effect */
+#bouncing-button {
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-delay: 3.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  margin-bottom: 50px;
+}
