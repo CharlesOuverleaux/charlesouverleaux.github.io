@@ -2,6 +2,7 @@
 @import "components/project_card.css";
 @import "components/pill.css";
 @import "components/skill_list.css";
+@import "components/form.css";
 
 /* main */
 html, body {
@@ -136,23 +137,8 @@ a:hover {
   font-size: large;
 }
 
-form {
-  width: 100%;
-  margin: 16px 0px;
-}
-
-textarea, input {
-  width: 100%;
-  margin-bottom: 16px;
-}
-
-.half-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.half-container input {
-  width: 48%;
+.contact-container {
+  height: 75vh;
 }
 
 footer {

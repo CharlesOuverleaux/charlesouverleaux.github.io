@@ -1,0 +1,33 @@
+form {
+  width: 100%;
+  margin: 16px 0px;
+}
+
+textarea, input {
+  width: 100%;
+  margin-bottom: 16px;
+  border: 3px solid lightgray;
+  padding-left: 16px;
+  border-radius: 5px;
+  color: lightgray;
+}
+
+.half-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half-container input {
+  width: 48%;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+}
+
+#custom-button {
+  font-size: larger;
+  opacity: 0.7;
+  transition: 0.5s;
+}

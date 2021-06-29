@@ -136,16 +136,24 @@
         </div>
       </div>
       <div class="contact-container">
-        <h2 id="contact">Let's get in touch</h2>
-        <form action=”mailto:charlesantoine.ouverleaux@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
-          <div class="half-container">
-            <input type=”text” name="name" autocomplete="off" placeholder="Name">
-            <input type=”text” name="email" autocomplete="off" placeholder="Email">
-          </div>
-          <input type=”text” name="subject" autocomplete="off" placeholder="Subject">
-          <textarea type="text" rows ="5" placeholder="Write a message..."></textarea>
-          <input type="submit" value="Send">
-        </form>
+        <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="750" data-aos-easing="ease-in-sine" class="contact-headers">
+          <h2 id="contact">Let's get in touch</h2>
+          <p>Send a general message or details of a project you'd like me to be a part of and I'll get back to you as soon as
+            possible.</p>
+        </div>
+        <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="750" data-aos-easing="ease-in-sine" class="contact-form">
+          <form action=”mailto:charlesantoine.ouverleaux@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+            <div class="half-container">
+              <input type=”text” name="name" autocomplete="off" placeholder="Name" required="true">
+              <input type=”text” name="email" autocomplete="off" placeholder="Email"required="true">
+            </div>
+            <input type=”text” name="website" autocomplete="off" placeholder="Your website e.g. https://charlesouverleaux.github.io/profile/">
+            <textarea type="text" rows ="5" placeholder="Write a message..." required="true"></textarea>
+            <div class="form-button">
+              <button type="submit" class="badge bg-light text-dark rounded-pill" id="custom-button"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send</button>
+            </div>
+          </form>
+        </div>
       </div>
     </main>
     <footer>
