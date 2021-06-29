@@ -21,7 +21,7 @@ h1, h2 {
 }
 
 #projects, #about, #contact {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 header {
@@ -75,6 +75,13 @@ a:hover {
 @keyframes bounce{
      from {transform: translateY(0);}
      to   {transform: translateY(-10px);}
+}
+
+/* about me section */
+
+.about-description img {
+  width: 240px;
+  border-radius: 50%;
 }
 
 footer {
