@@ -1,6 +1,7 @@
 @import "components/navbar.css";
 @import "components/project_card.css";
 @import "components/pill.css";
+@import "components/skill_list.css";
 
 /* main */
 html, body {
@@ -91,6 +92,13 @@ a:hover {
 .about-description img {
   width: 200px;
   border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.about-skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 footer {
