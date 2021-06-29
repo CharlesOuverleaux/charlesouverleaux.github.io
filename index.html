@@ -6,6 +6,7 @@
         of my job I enjoyed the most: coding and problem solving. Always eager to learn more, I changed carreer path and dived into programming.
         I now combine my analytical mindset and understanding of ecommerce as a developer. ">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -49,7 +50,7 @@
       <div class=project-container>
         <h2 id="projects">Projects</h2>
         <div class="project-card-container">
-          <div class="project-card">
+          <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="750" data-aos-easing="ease-in-sine" class="project-card">
             <img src="css/images/surfeasy-phone.png" alt="project-surfeasy"/>
             <div class="project-card-content">
               <h2>Surfeasy</h2>
@@ -65,7 +66,7 @@
               </p>
             </div>
           </div>
-          <div class="project-card">
+          <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="750" data-aos-easing="ease-in-sine" class="project-card">
             <img src="css/images/rent-a-techy.png" alt="project-rent-a-techy"/>
             <div class="project-card-content">
               <h2>Rent a techy</h2>
@@ -85,17 +86,17 @@
       <div class="about-container">
         <h2 id="about">About me</h2>
         <div class="about-description">
-          <div class="description">
+          <div data-aos="fade-right" data-aos-duration="750" data-aos-easing="ease-in-sine" class="description">
             <p>After working 6 years in sales and marketing I decided to focus on the parts of my jobs I enjoyed the most: coding and
             problem solving. Always eager to learn more, I changed career path and dived into programming. I'm combining my
             analytical mindset and understanding of ecommerce in my work as a developer.</p>
           </div>
-          <div class="profile-picture">
+          <div data-aos="fade-left" data-aos-duration="750" data-aos-easing="ease-in-sine" class="profile-picture">
             <img src="css/images/profile_picture.png" alt="profile_picture">
           </div>
         </div>
         <div class="about-skills">
-          <div class="item-1">
+          <div data-aos="fade-right" data-aos-duration="750" data-aos-easing="ease-in-sine" class="item-1">
             <div class="skill-container">
               <p><strong>Technical skills</strong></p>
               <ul>
@@ -127,7 +128,7 @@
               </ul>
             </div>
           </div>
-          <div class="item-2">
+          <div data-aos="fade-left" data-aos-duration="750" data-aos-easing="ease-in-sine" class="item-2">
             <a href="css/CV/CV_CharlesOuverleaux.pdf">
             <span id="download-badge" class="badge bg-light text-dark rounded-pill">Download CV</span>
             </a>
@@ -135,12 +136,33 @@
         </div>
       </div>
       <div class="contact-container">
-        <h2 id="contact">Get in touch</h2>
+        <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="750" data-aos-easing="ease-in-sine" class="contact-headers">
+          <h2 id="contact">Let's get in touch</h2>
+          <p>Send a general message or details of a project you'd like me to be a part of and I'll get back to you as soon as
+            possible.</p>
+        </div>
+        <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="750" data-aos-easing="ease-in-sine" class="contact-form">
+          <form action=”mailto:charlesantoine.ouverleaux@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+            <div class="half-container">
+              <input type=”text” name="name" autocomplete="off" placeholder="Name" required="true">
+              <input type=”text” name="email" autocomplete="off" placeholder="Email"required="true">
+            </div>
+            <input type=”text” name="website" autocomplete="off" placeholder="Your website e.g. https://charlesouverleaux.github.io/profile/">
+            <textarea type="text" rows ="5" placeholder="Write a message..." required="true"></textarea>
+            <div class="form-button">
+              <button type="submit" class="badge bg-light text-dark rounded-pill" id="custom-button"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send</button>
+            </div>
+          </form>
+        </div>
       </div>
     </main>
     <footer>
       Charles Ouverleaux, 2021
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>

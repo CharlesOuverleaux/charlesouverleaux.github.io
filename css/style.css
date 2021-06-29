@@ -2,6 +2,7 @@
 @import "components/project_card.css";
 @import "components/pill.css";
 @import "components/skill_list.css";
+@import "components/form.css";
 
 /* main */
 html, body {
@@ -134,6 +135,10 @@ a:hover {
 }
 #download-badge {
   font-size: large;
+}
+
+.contact-container {
+  height: 75vh;
 }
 
 footer {
