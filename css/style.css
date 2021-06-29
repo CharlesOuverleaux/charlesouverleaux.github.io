@@ -136,6 +136,25 @@ a:hover {
   font-size: large;
 }
 
+form {
+  width: 100%;
+  margin: 16px 0px;
+}
+
+textarea, input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.half-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half-container input {
+  width: 48%;
+}
+
 footer {
   text-align: center;
   padding: 1.5em;
