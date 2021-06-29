@@ -81,11 +81,13 @@ a:hover {
 /* about me section */
 
 .about-description {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 3rem 1rem;
+  justify-content: space-between;
 }
 
 .about-description p {
-  align-self: flex-end;
   padding-right: 22px;
 }
 
@@ -95,10 +97,19 @@ a:hover {
   filter: grayscale(100%);
 }
 
-.about-skills {
+.profile-picture {
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.about-skills {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 3rem 1rem;
+}
+
+.item-1 {
+  display: flex;
 }
 
 footer {
