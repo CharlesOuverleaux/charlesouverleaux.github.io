@@ -52,7 +52,7 @@ a:hover {
   opacity: 1;
 }
 
-/* about me section */
+/* landing page section */
 
 .landing-container {
   height: 100%;
@@ -60,7 +60,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 50px;
 }
 
 /* arrow down effect */
@@ -78,7 +77,17 @@ a:hover {
      to   {transform: translateY(-10px);}
 }
 
+/* Project section */
+
+.project-container {
+  height: 100vh;
+}
+
 /* about me section */
+
+.about-container {
+  height:100vh;
+}
 
 .about-description {
   display: grid;
@@ -89,12 +98,18 @@ a:hover {
 
 .about-description p {
   padding-right: 22px;
+  margin: 0em;
 }
 
 .about-description img {
   width: 200px;
   border-radius: 50%;
   filter: grayscale(100%);
+}
+
+.description {
+  display: flex;
+  align-items: center;
 }
 
 .profile-picture {
@@ -106,10 +121,19 @@ a:hover {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 3rem 1rem;
+  margin-top: 22px;
 }
 
 .item-1 {
   display: flex;
+  justify-content: space-between;
+}
+
+.item-2{
+  text-align: end;
+}
+#download-badge {
+  font-size: large;
 }
 
 footer {
