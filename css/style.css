@@ -68,17 +68,17 @@ i:hover {
 /* Project section */
 
 .project-container {
-  height: 100vh;
+  height: 100%;
 }
 
 /* about me section */
 
 .about-container {
-  height:100vh;
+  height:100%;
 }
 
 .contact-container {
-  height: 75vh;
+  height: 100%;
 }
 
 footer {
