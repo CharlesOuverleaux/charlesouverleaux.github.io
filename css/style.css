@@ -3,6 +3,9 @@
 @import "components/pill.css";
 @import "components/skill_list.css";
 @import "components/form.css";
+@import "components/bouncing_button.css";
+@import "components/landing_page.css";
+@import "components/about_me.css";
 
 /* main */
 html, body {
@@ -42,7 +45,6 @@ a:link {
   opacity: 0.7;
 }
 
-
 a:visited {
   color: black;
   opacity: 0.7;
@@ -51,31 +53,6 @@ a:visited {
 a:hover {
   color: black;
   opacity: 1;
-}
-
-/* landing page section */
-
-.landing-container {
-  height: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-/* arrow down effect */
-#bouncing-button {
-  animation-name: bounce;
-  animation-duration: 1.5s;
-  animation-delay: 3.2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
-}
-
-@keyframes bounce{
-     from {transform: translateY(0);}
-     to   {transform: translateY(-10px);}
 }
 
 /* Project section */
@@ -90,53 +67,6 @@ a:hover {
   height:100vh;
 }
 
-.about-description {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 3rem 1rem;
-  justify-content: space-between;
-}
-
-.about-description p {
-  padding-right: 22px;
-  margin: 0em;
-}
-
-.about-description img {
-  width: 200px;
-  border-radius: 50%;
-  filter: grayscale(100%);
-}
-
-.description {
-  display: flex;
-  align-items: center;
-}
-
-.profile-picture {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.about-skills {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 3rem 1rem;
-  margin-top: 22px;
-}
-
-.item-1 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.item-2{
-  text-align: end;
-}
-#download-badge {
-  font-size: large;
-}
-
 .contact-container {
   height: 75vh;
 }
@@ -144,4 +74,5 @@ a:hover {
 footer {
   text-align: center;
   padding: 1.5em;
+  color:lightgray
 }

@@ -1,0 +1,46 @@
+.about-description {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 3rem 1rem;
+  justify-content: space-between;
+}
+
+.about-description p {
+  padding-right: 22px;
+  margin: 0em;
+}
+
+.about-description img {
+  width: 200px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.description {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-skills {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 3rem 1rem;
+  margin-top: 22px;
+}
+
+.item-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-2{
+  text-align: end;
+}
+#download-badge {
+  font-size: large;
+}
