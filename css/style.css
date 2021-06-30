@@ -55,6 +55,16 @@ a:hover {
   opacity: 1;
 }
 
+/* icons */
+
+i {
+  transition: 0.5s;
+}
+
+i:hover {
+  transform: scale(1.02);
+}
+
 /* Project section */
 
 .project-container {
