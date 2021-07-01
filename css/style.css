@@ -102,6 +102,10 @@ footer {
     #image-container {
       display: none;
     }
+
+    #index-bg-shape {
+      bottom: 67vh;
+    }
 }
 /* responsive, desktop */
 @media (min-width: 740px) {
