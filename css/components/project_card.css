@@ -13,6 +13,7 @@
   transition: 0.4s;
   text-align: center;
   height: 100%;
+  background-color: white;
 }
 
 .project-card:hover {
