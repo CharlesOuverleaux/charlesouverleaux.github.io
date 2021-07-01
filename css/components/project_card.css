@@ -2,7 +2,6 @@
 
 .project-card-container {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
   grid-gap: 1rem 1rem;
 
 }
@@ -13,6 +12,7 @@
   box-shadow: 2px 4px 10px rgb(0 0 0 / 8%);
   transition: 0.4s;
   text-align: center;
+  height: 100%;
 }
 
 .project-card:hover {

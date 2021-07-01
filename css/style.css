@@ -103,9 +103,30 @@ footer {
     html, body {
       font-size: 20px;
     }
+    p {
+      font-size: 20px;
+    }
+    #bouncing-button {
+      margin-bottom: 150px;
+    }
+
+    .project-card-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .about-description {
+      display: flex;
+    }
+
+    .description {
+      margin-right: 5px;
+    }
+
     .about-skills {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 3rem 1rem;
+      margin-top: 15px;
     }
 }
