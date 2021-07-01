@@ -1,22 +1,13 @@
 .about-description {
   margin-bottom: 16px;
-  display: flex;
 }
-
-.about-description p {
-  padding-right: 22px;
-}
-
 .about-description img {
   width: 200px;
   border-radius: 50%;
   filter: grayscale(100%);
 }
-
 .about-skills {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3rem 1rem;
+  text-align: center;
 }
 
 .description {
@@ -33,7 +24,7 @@
 
 #download-button {
   text-align: center;
-  margin: 16px;
+  margin: 22px;
 }
 
 #download-badge {

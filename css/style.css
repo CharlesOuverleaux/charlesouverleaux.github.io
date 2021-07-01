@@ -25,6 +25,10 @@ h1, h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
+p {
+  font-size: 16px;
+}
+
 #projects, #about, #contact {
   padding-top: 25px;
 }
@@ -78,10 +82,6 @@ i:hover {
   justify-content: space-evenly;
 }
 
-.contact-container {
-  height: 50vh;
-}
-
 footer {
   text-align: center;
   padding: 1.5em;
@@ -93,10 +93,19 @@ footer {
     nav {
       display: none;
     }
+
+    #image-container {
+      display: none;
+    }
 }
 /* responsive, desktop */
 @media (min-width: 740px) {
     html, body {
       font-size: 20px;
+    }
+    .about-skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 3rem 1rem;
     }
 }
