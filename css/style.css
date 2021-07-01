@@ -29,7 +29,7 @@ p {
 }
 
 #projects, #about, #contact {
-  padding-top: 25px;
+  padding-top: 55px;
 }
 
 header {
@@ -101,10 +101,6 @@ footer {
 
     #image-container {
       display: none;
-    }
-
-    #index-bg-shape {
-      bottom: 67vh;
     }
 }
 /* responsive, desktop */
