@@ -10,7 +10,7 @@
 /* main */
 html, body {
   font-family: 'Roboto', sans-serif;
-  font-size: 32px;
+  font-size: 22px;
   background-color: white;
   margin: 0px;
 }
@@ -30,7 +30,7 @@ h1, h2 {
 }
 
 header {
-  height: calc(100vh - 74px);
+  height: 100vh;
 }
 
 /* links */
@@ -88,4 +88,17 @@ footer {
   text-align: center;
   padding: 1.5em;
   color:lightgray
+}
+
+/* responsive, mobile */
+@media (max-width: 740px) {
+    nav {
+      display: none;
+    }
+}
+/* responsive, desktop */
+@media (min-width: 740px) {
+    html, body {
+      font-size: 20px;
+    }
 }
