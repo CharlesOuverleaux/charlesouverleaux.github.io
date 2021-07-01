@@ -1,6 +1,6 @@
 @import "components/navbar.css";
 @import "components/project_card.css";
-@import "components/pill.css";
+@import "components/button.css";
 @import "components/skill_list.css";
 @import "components/form.css";
 @import "components/bouncing_button.css";
@@ -66,11 +66,6 @@ i {
 
 i:hover {
   transform: scale(1.02);
-}
-
-/* Project section */
-
-.project-container {
 }
 
 /* about me section */
