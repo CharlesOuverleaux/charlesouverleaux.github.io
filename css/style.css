@@ -111,9 +111,6 @@ footer {
     p {
       font-size: 20px;
     }
-    #bouncing-button {
-      margin-bottom: 150px;
-    }
 
     .project-card-container{
       display: grid;
