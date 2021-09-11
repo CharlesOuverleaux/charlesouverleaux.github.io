@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Charles Ouverleaux</title>
+    <title>CO</title>
     <meta name="description" content="Full-stack Developer. After working 6 years in sales and marketing I decided to focus on the parts
         of my job I enjoyed the most: coding and problem solving. Always eager to learn more, I changed carreer path and dived into programming.
         I now combine my analytical mindset and understanding of ecommerce as a developer. ">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="css/images/connectdevelop.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -18,7 +21,7 @@
     <nav>
       <div id="navbar">
         <div class="logo">
-          <a href=""><i class="fa fa-connectdevelop" aria-hidden="true"></i>  <strong>Charles Ouverleaux</strong> </a>
+          <a href=""><i class="fa fa-connectdevelop" aria-hidden="true"></i>  <strong>CO</strong> </a>
         </div>
         <div id="navbar-links">
           <div class="navbar-link">
@@ -34,6 +37,11 @@
       </div>
     </nav>
     <main>
+        <!-- Particles.js div -->
+      <div id="particles-js">
+        <div class="heading">
+        </div>
+      </div>
       <header>
         <div class="landing-container">
           <div class="spacer"></div>
@@ -45,17 +53,18 @@
           <div id="bouncing-button">
             <a href="#projects"><i class="fa fa-angle-double-down fa-2x" aria-hidden="true"></i></a>
           </div>
+          <div class="spacer"></div>
         </div>
       </header>
       <div class=project-container>
         <h2 id="projects">Projects</h2>
-        <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="750" data-aos-easing="ease-in-sine" class="project-card-container">
+        <div data-aos="fade-up" data-aos-easing="ease-in-sine" class="project-card-container">
           <div class="project-card">
             <img src="css/images/surfeasy-phone.png" alt="project-surfeasy"/>
             <div class="project-card-content">
               <h2>Surfeasy</h2>
-              <p>A mobile friendly app that <strong>surfers find the best waves </strong>
-                depending on their level, location and live weather data.
+              <p>A mobile friendly app <strong>searching the best waves </strong>
+                depending on surfers location, level and live weather data.
                 <br>It was developed as a team of 4 in 2 weeks.</p>
               <p>
                 <span class="badge bg-light text-dark rounded-pill">Ruby on rails</span>
@@ -67,7 +76,7 @@
               <p>
                 <a href="https://github.com/CharlesOuverleaux/surfeasy" target=”_blank”><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
                  -
-                <a href="https://www.surf-easy.com/" target=”_blank”><i class="fa fa-external-link fa-lg" aria-hidden="true"></i></a>
+                <a href="https://youtu.be/snYk8xveH5g?t=718" target=”_blank”><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a>
               </p>
             </div>
           </div>
@@ -98,16 +107,18 @@
       <div class="about-container">
         <h2 id="about">About me</h2>
         <div class="about-description">
-          <div data-aos="fade-right" data-aos-duration="750" data-aos-easing="ease-in-sine" class="description">
+          <div class="description">
             <p>After working 6 years in sales and marketing I decided to focus on the parts of my jobs I enjoyed the most: coding and
             problem solving. Always eager to learn more, I changed career path and dived into programming. I'm combining my
             analytical mindset and understanding of ecommerce in my work as a developer.</p>
           </div>
+          <div id="image-container" class="profile-picture">
+            <img src="css/images/profile_picture.png" alt="profile_picture">
+          </div>
         </div>
         <div class="about-skills">
-          <div data-aos="fade-right" data-aos-duration="750" data-aos-easing="ease-in-sine" class="item-1">
-            <div class="skill-container">
-              <p><strong>Technical skills</strong></p>
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine" class="skill-container">
+              <p><strong>Technical skills <i class="fa fa-code" aria-hidden="true"></i></strong></p>
               <ul>
                 <li>Ruby on rails</li>
                 <li>Python, Django</li>
@@ -119,8 +130,8 @@
                 <li>Excel/VBA</li>
               </ul>
             </div>
-            <div class="skill-container">
-              <p><strong>Languages</strong></p>
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine" class="skill-container">
+              <p><strong>Languages <i class="fa fa-globe" aria-hidden="true"></i></strong></p>
               <ul>
                 <li>French</li>
                 <li>English</li>
@@ -128,59 +139,58 @@
                 <li>German</li>
               </ul>
             </div>
-            <div class="skill-container">
-              <p><strong>Interests</strong></p>
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine" class="skill-container">
+              <p><strong>Interests <i class="fa fa-rocket" aria-hidden="true"></i></strong></p>
               <ul>
                 <li>Wood working</li>
                 <li>Surfing</li>
                 <li>Music and concerts</li>
               </ul>
             </div>
-            <div id="image-container" class="skill-container">
-              <div data-aos="fade-left" data-aos-duration="750" data-aos-easing="ease-in-sine" class="profile-picture">
-                <img src="css/images/profile_picture.png" alt="profile_picture">
-              </div>
-              <div data-aos="fade-left" data-aos-duration="750" data-aos-easing="ease-in-sine" class="item-2">
-                <a href="css/CV/CV_CharlesOuverleaux.pdf" download>
-                  <span id="download-badge" class="badge bg-light text-dark rounded-pill">Download CV</span>
-                </a>
-              </div>
-            </div>
+          </div>
+          <div data-aos="zoom-in" class="button-container">
+            <a id="custom-button" href="css/CV/CV_CharlesOuverleaux.pdf" download>
+              <i class="fa fa-download" aria-hidden="true"></i> Download CV
+            </a>
           </div>
         </div>
-      </div>
       <div class="contact-container">
-        <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="750" data-aos-easing="ease-in-sine" class="contact-headers">
+        <div class="contact-headers">
           <h2 id="contact">Let's get in touch</h2>
           <p>Send a general message or details of a project you'd like me to be a part of and I'll get back to you as soon as
             possible.</p>
         </div>
-        <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="750" data-aos-easing="ease-in-sine" class="contact-form">
+        <div class="contact-form">
           <form action="https://formsubmit.co/77623b327f6feeaa67d6a1542d895195" method="POST">
             <div class="half-container">
               <input type=”text” name="name" autocomplete="off" placeholder="Name" required="true">
               <input type=”text” name="email" autocomplete="off" placeholder="Email"required="true">
             </div>
-            <input type=”text” name="website" autocomplete="off" placeholder="Your website e.g. https://www.awesomeproducts.com">
+            <input type=”text” name="website" autocomplete="off" placeholder="Your website">
             <textarea type="text" name="message" rows ="5" placeholder="Write a message..." required="true"></textarea>
-            <div class="form-button">
-              <button type="submit" class="badge bg-light text-dark rounded-pill" id="custom-button"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send</button>
+            <div class="button-container">
+              <button id="custom-button" type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send</button>
             </div>
             <input type="hidden" name="_next" value="https://charlesouverleaux.github.io">
           </form>
         </div>
+        <div id="index-bg-shape"></div>
       </div>
     </main>
     <footer>
       &#169; Charles Ouverleaux, 2021
     </footer>
+    <!-- Import Particles.js and app.js files -->
+    <script src="particles.js-master/particles.js"></script>
+    <script src="/particles.js-master/demo/js/app.js"></script>
+    <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script>AOS.init();</script>
+    <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- typed -->
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="javascript/application.js"></script>
   </body>
 </html>

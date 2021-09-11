@@ -1,6 +1,6 @@
 @import "components/navbar.css";
 @import "components/project_card.css";
-@import "components/pill.css";
+@import "components/button.css";
 @import "components/skill_list.css";
 @import "components/form.css";
 @import "components/bouncing_button.css";
@@ -10,8 +10,7 @@
 /* main */
 html, body {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  background-color: white;
+  font-size: 22px;
   margin: 0px;
 }
 
@@ -25,12 +24,16 @@ h1, h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
+p {
+  font-size: 16px;
+}
+
 #projects, #about, #contact {
-  padding-top: 30px;
+  padding-top: 55px;
 }
 
 header {
-  height: calc(100vh - 74px);
+  height: 100vh;
 }
 
 /* links */
@@ -65,24 +68,74 @@ i:hover {
   transform: scale(1.02);
 }
 
-/* Project section */
-
-.project-container {
-  height: 100vh;
-}
-
 /* about me section */
 
 .about-container {
-  height:100vh;
-}
-
-.contact-container {
-  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 footer {
   text-align: center;
   padding: 1.5em;
-  color:lightgray
+  color:lightgray;
+}
+
+#index-bg-shape {
+  /* opacity: 36%;
+  position: fixed;
+  bottom: 50vh;
+  height: 25vh;
+  width: 298vw;
+  background-color: #caf0f8;
+  z-index: -100;
+  transform: translateX(-100vw) rotate(-38deg); */
+}
+
+canvas {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+/* responsive, mobile */
+@media (max-width: 740px) {
+    nav {
+      display: none;
+    }
+
+    #image-container {
+      display: none;
+    }
+}
+/* responsive, desktop */
+@media (min-width: 740px) {
+    html, body {
+      font-size: 20px;
+    }
+    p {
+      font-size: 20px;
+    }
+
+    .project-card-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .about-description {
+      display: flex;
+    }
+
+    .description {
+      margin-right: 5px;
+    }
+
+    .about-skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 3rem 1rem;
+      margin-top: 15px;
+    }
 }

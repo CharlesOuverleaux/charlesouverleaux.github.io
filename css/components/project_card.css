@@ -2,16 +2,18 @@
 
 .project-card-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3rem 1rem;
+  grid-gap: 1rem 1rem;
 
 }
 
 .project-card {
+  font-size: 16px;
   padding: 10px;
   box-shadow: 2px 4px 10px rgb(0 0 0 / 8%);
   transition: 0.4s;
   text-align: center;
+  height: 100%;
+  background-color: white;
 }
 
 .project-card:hover {

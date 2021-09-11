@@ -1,15 +1,13 @@
 .about-description {
   margin-bottom: 16px;
 }
-
-.about-description p {
-  padding-right: 22px;
-}
-
-.about-skills img {
+.about-description img {
   width: 200px;
   border-radius: 50%;
   filter: grayscale(100%);
+}
+.about-skills {
+  text-align: center;
 }
 
 .description {
@@ -24,16 +22,7 @@
   align-items: center;
 }
 
-.item-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 3rem 1rem;
-}
-
-.item-2{
-  display: flex;
-  justify-content: center;
-}
-#download-badge {
-  font-size: large;
+#download-button {
+  text-align: center;
+  margin: 22px;
 }
